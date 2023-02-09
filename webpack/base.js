@@ -22,6 +22,15 @@ export default ({ isProdMode }) => ({
 
   module: {
     rules: [
+      // https://webpack.js.org/configuration/module/#resolvefullyspecified
+      // https://github.com/webpack/webpack/issues/11467#issuecomment-691873586
+      {
+        test: /\.m?js$/,
+        resolve: {
+          fullySpecified: false
+        }
+      },
+
       // Typescript
       {
         test: /\.tsx?$/,
@@ -62,7 +71,7 @@ export default ({ isProdMode }) => ({
   },
 
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.ts', '.js'],
   },
 
   plugins: [

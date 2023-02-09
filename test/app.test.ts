@@ -5,7 +5,6 @@ let app: App;
 beforeEach(() => {
   global.SOME_FEATURE_FLAG = false;
   app = new App();
-  app.start();
 });
 
 test('it starts app', () => {

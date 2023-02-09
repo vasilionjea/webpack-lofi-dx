@@ -1,11 +1,11 @@
 {
   "type": "module",
-  "name": "webpack-frontend-template",
-  "version": "1.2.1",
+  "name": "webpack-lofi-dx",
+  "version": "1.0.0",
   "private": true,
-  "description": "A webpack starter template for Frontend projects with typescript",
+  "description": "Example using lofi-dx in a webpack project",
   "scripts": {
-    "start": "webpack serve --env dev --open",
+    "start": "webpack serve --env dev",
     "format": "prettier --ignore-path .eslintignore --write '**/**/*.{js,ts,tsx}'",
     "lint": "eslint --ignore-path .eslintignore './src/**/*.{js,ts,tsx}'",
     "test": "jest --verbose --watch",
@@ -41,5 +41,8 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "lofi-dx": "^1.0.6"
   }
 }
