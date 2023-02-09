@@ -43,6 +43,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "lofi-dx": "^1.0.6"
+    "lofi-dx": "^1.0.7"
   }
 }
