@@ -1,4 +1,4 @@
-# About
+# webpack-lofi-dx
 [![Build Status](https://github.com/vasilionjea/webpack-frontend-template/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/vasilionjea/webpack-frontend-template/actions/workflows/unit-tests.yml)
 
 An example repo that consumes the `lofi-dx` package in a Webpack/TS project: https://www.npmjs.com/package/lofi-dx
