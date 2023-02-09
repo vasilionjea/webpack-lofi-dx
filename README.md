@@ -1,7 +1,7 @@
 # About
 [![Build Status](https://github.com/vasilionjea/webpack-frontend-template/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/vasilionjea/webpack-frontend-template/actions/workflows/unit-tests.yml)
 
-An example repo that consumes the `lofi-dx` package in a Webpack/TS project: `npm install lofi-dx`
+An example repo that consumes the `lofi-dx` package in a Webpack/TS project: https://www.npmjs.com/package/lofi-dx
 
 #### Typescript
 Webpack's `ts-loader` uses `tsc`, the TypeScript compiler, and relies on your `tsconfig.json` configuration to compile _.ts_ files to **es2015**.
